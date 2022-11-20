@@ -1,0 +1,57 @@
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    display: flex;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #315efb;
+    transition: 0.3s;
+    border: #315efb solid;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.inputChat {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 50px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 20px auto;
+    border: #315efb solid;
+}
+
+input {
+    width: 220px;
+    border: #315efb solid;
+    height: 30px;
+    align-self: center;
+}
+
+.outputMessage {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.chatWindow {
+    height: 1000px;
+    border: #315efb solid;
+    margin: 20px 5px;
+}
